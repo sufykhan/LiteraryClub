@@ -11,7 +11,7 @@ function Finaldetail(props)
             <div class="d-flex justify-content-between align-items-center">
               <h2>{props.eventname}</h2>
               <ol>
-                <li><a href="/home">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li><a href="/">Event</a></li>
                 <li>Event Detail</li>
               </ol>

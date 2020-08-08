@@ -9,7 +9,7 @@ import Bosses from "./Boss";
 import Getst from "./Getstarted";
 import Whatwedo from "./Service";
 import Contactus from "./Contact";
-
+import "./Event.css"
 
 function Whole()
 {
@@ -41,6 +41,15 @@ function Whole()
          
             <div style={{background:"#fef8f5",padding:"60px 0px",textAlign:"center"}}>
                 <h2 style={{fontSize: "24px",fontWeight: "700",paddingBottom: "0",lineHeight: "1px",marginBottom: "15px",color: "#c2b7b1"}}>Created by Sufyan</h2>
+                <footer>
+                    <div class="rounded-social-buttons">
+                    <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-f"></i></a>
+                    <a class="social-button twitter" href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a class="social-button youtube" href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a>
+                    <a class="social-button instagram" href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+                    </div>
+                </footer>
             </div>
             {/* </div> */}
         </div>

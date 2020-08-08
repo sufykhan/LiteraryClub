@@ -4,7 +4,7 @@ import Whole from "./Newcombine";
 import IndividualPortfolio from "./Portfolio"
 import {
   Switch,
-  Route,
+  Route
 } from "react-router-dom";
 
 function App()
