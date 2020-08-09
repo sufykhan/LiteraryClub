@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/IIT-JMU-LitClub/static/css/main.799d140c.chunk.css",
-    "main.js": "/IIT-JMU-LitClub/static/js/main.406c2e58.chunk.js",
-    "main.js.map": "/IIT-JMU-LitClub/static/js/main.406c2e58.chunk.js.map",
+    "main.js": "/IIT-JMU-LitClub/static/js/main.ab4c9e48.chunk.js",
+    "main.js.map": "/IIT-JMU-LitClub/static/js/main.ab4c9e48.chunk.js.map",
     "runtime-main.js": "/IIT-JMU-LitClub/static/js/runtime-main.ab75d899.js",
     "runtime-main.js.map": "/IIT-JMU-LitClub/static/js/runtime-main.ab75d899.js.map",
     "static/css/2.33512874.chunk.css": "/IIT-JMU-LitClub/static/css/2.33512874.chunk.css",
     "static/js/2.e822ff52.chunk.js": "/IIT-JMU-LitClub/static/js/2.e822ff52.chunk.js",
     "static/js/2.e822ff52.chunk.js.map": "/IIT-JMU-LitClub/static/js/2.e822ff52.chunk.js.map",
     "index.html": "/IIT-JMU-LitClub/index.html",
-    "precache-manifest.18ea69732e28100219ce5d51a7a5c1f5.js": "/IIT-JMU-LitClub/precache-manifest.18ea69732e28100219ce5d51a7a5c1f5.js",
+    "precache-manifest.a8585ef5be0d29164989e761f28d9e65.js": "/IIT-JMU-LitClub/precache-manifest.a8585ef5be0d29164989e761f28d9e65.js",
     "service-worker.js": "/IIT-JMU-LitClub/service-worker.js",
     "static/css/2.33512874.chunk.css.map": "/IIT-JMU-LitClub/static/css/2.33512874.chunk.css.map",
     "static/css/main.799d140c.chunk.css.map": "/IIT-JMU-LitClub/static/css/main.799d140c.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.33512874.chunk.css",
     "static/js/2.e822ff52.chunk.js",
     "static/css/main.799d140c.chunk.css",
-    "static/js/main.406c2e58.chunk.js"
+    "static/js/main.ab4c9e48.chunk.js"
   ]
 }

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c7c1a42107ff9de720c535929d428f76",
+    "revision": "6e7c25e5554dff2232779dbe423adcc0",
     "url": "/IIT-JMU-LitClub/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/IIT-JMU-LitClub/static/css/2.33512874.chunk.css"
   },
   {
-    "revision": "f7eeda236c250930da75",
+    "revision": "eea3c51b692fcb846ebe",
     "url": "/IIT-JMU-LitClub/static/css/main.799d140c.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/IIT-JMU-LitClub/static/js/2.e822ff52.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f7eeda236c250930da75",
-    "url": "/IIT-JMU-LitClub/static/js/main.406c2e58.chunk.js"
+    "revision": "eea3c51b692fcb846ebe",
+    "url": "/IIT-JMU-LitClub/static/js/main.ab4c9e48.chunk.js"
   },
   {
     "revision": "99dda40e33dd16ebf971",
