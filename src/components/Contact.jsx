@@ -5,6 +5,7 @@
   import 'bootstrap/dist/css/bootstrap.min.css';  
   import axios from "axios";
   
+  const PORT="http://localhost:5000";
   function Contactus()
   {
       useEffect(() => {
@@ -18,7 +19,7 @@
            event.preventDefault();
            axios({
              method:"POST",
-             url:"http://localhost:5000/send",
+             url:`${PORT}/send`,
              data:formdata
            }).then((response)=>{
               if(response.data.status==="success")
@@ -40,32 +41,32 @@
         }
   
         return(
-    <section id="contact" class="contact">
-      <div class="container">
+    <section id="contact" className="contact">
+      <div className="container">
 
-        <div class="section-title" data-aos="fade-up">
+        <div className="section-title" data-aos="fade-up">
           <h2>Contact Us {formdata.name}</h2>
-          <p>Contact us the get started</p>
+          <p>Contact us and get started</p>
         </div>
 
-        <div class="row">
+        <div className="row">
 
-          <div class="col-lg-5 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="info">
-              <div class="address">
-                <i class="fa fa-map"></i>
+          <div className="col-lg-5 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div className="info">
+              <div className="address">
+                <i className="fa fa-map"></i>
                 <h4>Location:</h4>
                 <p>IIT Jammu, Jammu</p>
               </div>
 
-              <div class="email">
-                <i class="fa fa-envelope"></i>
+              <div className="email">
+                <i className="fa fa-envelope"></i>
                 <h4>Email:</h4>
                 <p>info@example.com</p>
               </div>
 
-              <div class="phone">
-                <i class="fa fa-phone"></i>
+              <div className="phone">
+                <i className="fa fa-phone"></i>
                 <h4>Call:</h4>
                 <p>+919454846598</p>
               </div>
@@ -74,36 +75,36 @@
 
           </div>
 
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <form id="form-1" method="POST" role="form" class="php-email-form" onSubmit={HandleSubmit}>
-              <div class="form-row">
-                <div class="form-group col-md-6">
+          <div className="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <form id="form-1" method="POST" role="form" className="php-email-form" onSubmit={HandleSubmit}>
+              <div className="form-row">
+                <div className="form-group col-md-6">
                   <label for="name">Your Name</label>
-                  <input type="text" name="name" value={formdata.name} onChange={Change} class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validate"></div>
+                  <input type="text" name="name" value={formdata.name} onChange={Change} className="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div className="validate"></div>
                 </div>
-                <div class="form-group col-md-6">
+                <div className="form-group col-md-6">
                   <label for="name">Your Email</label>
-                  <input type="email" value={formdata.email} onChange={Change} class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validate"></div>
+                  <input type="email" value={formdata.email} onChange={Change} className="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div className="validate"></div>
                 </div>
               </div>
-              <div class="form-group">
+              <div className="form-group">
                 <label for="name">Subject</label>
-                <input type="text" value={formdata.subject} onChange={Change} class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validate"></div>
+                <input type="text" value={formdata.subject} onChange={Change} className="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div className="validate"></div>
               </div>
-              <div class="form-group">
+              <div className="form-group">
                 <label for="name">Message</label>
-                <textarea value={formdata.message} onChange={Change} class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
-                <div class="validate"></div>
+                <textarea value={formdata.message} onChange={Change} className="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
+                <div className="validate"></div>
               </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+              <div className="mb-3">
+                <div className="loading">Loading</div>
+                <div className="error-message"></div>
+                <div className="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div className="text-center"><button type="submit">Send Message</button></div>
             </form>
           </div>
 

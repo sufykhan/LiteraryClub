@@ -12,7 +12,7 @@ function Teams()
         AOS.refresh();
       });
     return (
-        <section class="services section-bg">
+        <section className="services section-bg">
         <div className="section-title" data-aos="fade-up">
           <h2>Team</h2>
           <p>Our team is always here to help</p>

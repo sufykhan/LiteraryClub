@@ -5,10 +5,10 @@ function Finaldetail(props)
     return(
         <main id="main">
         
-        <section class="breadcrumbs">
-          <div class="container">
+        <section className="breadcrumbs">
+          <div className="container">
     
-            <div class="d-flex justify-content-between align-items-center">
+            <div className="d-flex justify-content-between align-items-center">
               <h2>{props.eventname}</h2>
               <ol>
                 <li><a href="/">Home</a></li>
@@ -20,20 +20,20 @@ function Finaldetail(props)
           </div>
         </section>
     
-        <section class="portfolio-details">
-          <div class="container">
+        <section className="portfolio-details">
+          <div className="container">
     
-            <div class="portfolio-details-container">
+            <div className="portfolio-details-container">
     
               
-                <img  style={{width:"800px",height:"400px"}} src={props.img1} class="img-fluid" alt=""/>
+                <img  style={{width:"800px",height:"400px"}} src={props.img1} className="img-fluid" alt=""/>
               
     
-              <div class="portfolio-info">
+              <div className="portfolio-info">
                 <h3>Event information</h3>
                 <ul>
                   <li><strong>Category</strong>: {props.category}</li>
-                  <li><strong>Hostman</strong>: {props.hostman}</li>
+                  <li><strong>Host Person</strong>: {props.hostman}</li>
                   <li><strong>Event date</strong>: {props.date}</li>
                   <li><strong>Event Platform</strong>: <a href="/">{props.platform}</a></li>
                 </ul>
@@ -41,7 +41,7 @@ function Finaldetail(props)
     
             </div>
     
-            <div class="portfolio-description">
+            <div className="portfolio-description">
               <h2>{props.title}</h2>
               <p>
                 {props.detail}

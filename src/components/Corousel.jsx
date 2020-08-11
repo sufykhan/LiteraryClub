@@ -26,7 +26,7 @@ const responsive = {
 function xx(detail)
 {
      return(
-      <CardBlock title={detail.title} subtitle={detail.subtitle} img={detail.img} />
+      <CardBlock title={detail.title} subtitle={detail.subtitle} img={detail.img} blog={detail.blog} />
     );
 };
 return(

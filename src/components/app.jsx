@@ -1,7 +1,6 @@
 import React from "react";
 import Edetail from "./Eventdetail";
 import Whole from "./Newcombine";
-import IndividualPortfolio from "./Portfolio"
 import {
   Switch,
   Route
@@ -15,7 +14,6 @@ function App()
         <Switch>
         <Route exact path="/" component={Whole} />
         <Route path="/eventdetail/:id" component={Edetail} />
-        <Route path="/portfolio" component={IndividualPortfolio} />
         </Switch>
         </React.Fragment>
     );
