@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/IIT-JMU-LitClub/precache-manifest.a8585ef5be0d29164989e761f28d9e65.js"
+  "/IIT-JMU-LitClub/precache-manifest.7d868ff5930c1688e5ac937ef4eaea31.js"
 );
 
 self.addEventListener('message', (event) => {
