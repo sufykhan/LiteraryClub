@@ -5,7 +5,7 @@
   import 'bootstrap/dist/css/bootstrap.min.css';  
   import axios from "axios";
   
-  const PORT="https://git.heroku.com/iitjammuliteraryclub.git";
+  const PORT="https://iitjammuliteraryclub.herokuapp.com/";
   function Contactus()
   {
       useEffect(() => {
