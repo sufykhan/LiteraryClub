@@ -19,7 +19,7 @@
            event.preventDefault();
            axios({
              method:"POST",
-             url:`${PORT}/send`,
+             url:`${PORT}send`,
              data:formdata
            }).then((response)=>{
               if(response.data.status==="success")
