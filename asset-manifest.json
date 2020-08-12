@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "./static/css/main.d6764882.chunk.css",
-    "main.js": "./static/js/main.892c07a5.chunk.js",
-    "main.js.map": "./static/js/main.892c07a5.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.8b0ae790.js",
-    "runtime-main.js.map": "./static/js/runtime-main.8b0ae790.js.map",
-    "static/css/2.7eeeec49.chunk.css": "./static/css/2.7eeeec49.chunk.css",
-    "static/js/2.0f8336e7.chunk.js": "./static/js/2.0f8336e7.chunk.js",
-    "static/js/2.0f8336e7.chunk.js.map": "./static/js/2.0f8336e7.chunk.js.map",
-    "index.html": "./index.html",
-    "precache-manifest.b23d431d2684dec0b0e7cb6d4bc85287.js": "./precache-manifest.b23d431d2684dec0b0e7cb6d4bc85287.js",
-    "service-worker.js": "./service-worker.js",
-    "static/css/2.7eeeec49.chunk.css.map": "./static/css/2.7eeeec49.chunk.css.map",
-    "static/css/main.d6764882.chunk.css.map": "./static/css/main.d6764882.chunk.css.map",
-    "static/js/2.0f8336e7.chunk.js.LICENSE.txt": "./static/js/2.0f8336e7.chunk.js.LICENSE.txt",
-    "static/media/font-awesome.min.css": "./static/media/fontawesome-webfont.fee66e71.woff",
-    "static/media/styles.css": "./static/media/revicons.2feb69cc.eot"
+    "main.css": "/IIT-JMU-LitClub/static/css/main.d6764882.chunk.css",
+    "main.js": "/IIT-JMU-LitClub/static/js/main.df497cb3.chunk.js",
+    "main.js.map": "/IIT-JMU-LitClub/static/js/main.df497cb3.chunk.js.map",
+    "runtime-main.js": "/IIT-JMU-LitClub/static/js/runtime-main.ab75d899.js",
+    "runtime-main.js.map": "/IIT-JMU-LitClub/static/js/runtime-main.ab75d899.js.map",
+    "static/css/2.33512874.chunk.css": "/IIT-JMU-LitClub/static/css/2.33512874.chunk.css",
+    "static/js/2.0f8336e7.chunk.js": "/IIT-JMU-LitClub/static/js/2.0f8336e7.chunk.js",
+    "static/js/2.0f8336e7.chunk.js.map": "/IIT-JMU-LitClub/static/js/2.0f8336e7.chunk.js.map",
+    "index.html": "/IIT-JMU-LitClub/index.html",
+    "precache-manifest.4047be88e5460a49984625c9e96624df.js": "/IIT-JMU-LitClub/precache-manifest.4047be88e5460a49984625c9e96624df.js",
+    "service-worker.js": "/IIT-JMU-LitClub/service-worker.js",
+    "static/css/2.33512874.chunk.css.map": "/IIT-JMU-LitClub/static/css/2.33512874.chunk.css.map",
+    "static/css/main.d6764882.chunk.css.map": "/IIT-JMU-LitClub/static/css/main.d6764882.chunk.css.map",
+    "static/js/2.0f8336e7.chunk.js.LICENSE.txt": "/IIT-JMU-LitClub/static/js/2.0f8336e7.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/IIT-JMU-LitClub/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/styles.css": "/IIT-JMU-LitClub/static/media/revicons.2feb69cc.eot"
   },
   "entrypoints": [
-    "static/js/runtime-main.8b0ae790.js",
-    "static/css/2.7eeeec49.chunk.css",
+    "static/js/runtime-main.ab75d899.js",
+    "static/css/2.33512874.chunk.css",
     "static/js/2.0f8336e7.chunk.js",
     "static/css/main.d6764882.chunk.css",
-    "static/js/main.892c07a5.chunk.js"
+    "static/js/main.df497cb3.chunk.js"
   ]
 }
