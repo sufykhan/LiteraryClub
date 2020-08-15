@@ -1,6 +1,6 @@
 const Details=
 [
-    {title:"Amol Jaggi" ,subtitle:" " ,img:"https://i.ibb.co/k9j7qsV/IMG-20190927-WA0229.jpg",blog:"https://amoljaggi.wordpress.com/"}
+    {title:"Amol Jaggi" ,subtitle:"Exploring beyond the biological eye" ,img:"https://i.ibb.co/k9j7qsV/IMG-20190927-WA0229.jpg",blog:"https://amoljaggi.wordpress.com/"}
     ,
     {title:"Prashant Kumar Sagar" ,subtitle:"Believer" ,img :"https://i.ibb.co/pK7FfgR/IMG-20190817-154255-PRASHANT-KUMAR-SAGAR.jpg",blog:"https://prashantksagar.wordpress.com/"}
     ,
