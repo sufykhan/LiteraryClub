@@ -26,7 +26,7 @@ const responsive = {
 function xx(detail)
 {
      return(
-      <CardBlock title={detail.title} subtitle={detail.subtitle} img={detail.img} blog={detail.blog} />
+      <CardBlock title={detail.title} subtitle={detail.subtitle} img={detail.img} blog={detail.blog} key={detail.title}/>
     );
 };
 return(
@@ -47,7 +47,7 @@ return(
   //removeArrowOnDeviceType={["tablet", "mobile"]}
   dotListClass="custom-dot-list-style"
   itemClass="carousel-item-padding-15-px"
-  autoPlay={true}
+  autoPlay={false}
   renderButtonGroupOutside={true}
   renderDotsOutside={true}
  >

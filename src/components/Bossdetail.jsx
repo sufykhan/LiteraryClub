@@ -1,11 +1,11 @@
 const Bossd=[
-{img:"https://picsum.photos/200/300",name:"XYZ",pos:"Head/Coordinator" ,insta:"https://www.google.com/" ,face:"https://www.google.com/" ,twi:"https://www.google.com/" ,linkedin:"https://www.google.com/"}
+{img:"https://i.ibb.co/Z2wwTMM/unnamed.jpg",name:"Queleen Kaur Bijral",pos:"Faculty-Coordinator" ,insta:"https://www.instagram.com/quleenoqueen/?hl=en" ,face:"https://www.facebook.com/QuleenOQueen" ,twi:"https://www.twitter.com/" ,linkedin:"https://www.linkedin.com/in/quleenoqueen/"}
 ,
-{img:"https://picsum.photos/200/300",name:"XYZ",pos:"Head/Coordinator" ,insta:"https://www.google.com/" ,face:"https://www.google.com/" ,twi:"https://www.google.com/" ,linkedin:"https://www.google.com/"}
+{img:"https://i.ibb.co/VTWdC7T/Suchismita-Roy.jpg",name:"Suchismita Roy",pos:"Faculty Coordinator" ,insta:"https://www.google.com/" ,face:"https://www.google.com/" ,twi:"https://www.google.com/" ,linkedin:"https://www.google.com/"}
 ,
-{img:"https://picsum.photos/200/300",name:"XYZ",pos:"Head/Coordinator" ,insta:"https://www.google.com/" ,face:"https://www.google.com/" ,twi:"https://www.google.com/" ,linkedin:"https://www.google.com/"}
+{img:"https://i.ibb.co/K5f21PW/image.jpg",name:"Salman Raza",pos:"Student Coordinator" ,insta:"https://www.google.com/" ,face:"https://www.facebook.com/mdsalman.raza.376" ,twi:"https://www.google.com/" ,linkedin:"https://www.linkedin.com/in/md-salman-raza-1157b3147/"}
 ,
-{img:"https://picsum.photos/200/300",name:"XYZ",pos:"Head/Coordinator" ,insta:"https://www.google.com/" ,face:"https://www.google.com/" ,twi:"https://www.google.com/" ,linkedin:"https://www.google.com/"}
+{img:"https://i.ibb.co/09961bG/IMG-20191202-195803-SHAIVYA-YADAV.jpg",name:"Shaivya Yadav",pos:"Student Coordinator" ,insta:"https://www.instagram.com/shaivya_yadav/?hl=en" ,face:"https://www.facebook.com/shaivya.yadav.927/" ,twi:"https://www.google.com/" ,linkedin:"https://www.google.com/"}
 
 ];
 export default Bossd; 

@@ -11,15 +11,11 @@ function Eventitem(props)
         AOS.init();
         AOS.refresh();
       });
-    // function handleClick()
-    // {
-    //     console.log("clicked");
-    // }
     return(
         
            <div className="col-lg-4 col-md-6 portfolio-item filter-web">
            <div className="portfolio-wrap">
-                <img src={props.image} className="img-fluid" alt=""/>
+                <img  style={{widht:"350px",height:"350px"}} src={props.image} className="img-fluid" alt=""/>
                 <div className="portfolio-links">
                     {/* <a  data-gall="portfolioGallery" className="venobox" title="Web 3"  onClick={handleClick}><i className="fa fa-plus" value={props.eventname}></i></a> */}
                     <Link to={`/eventdetail/${props.eventname}`} ><i className="fa fa-link"></i></Link>

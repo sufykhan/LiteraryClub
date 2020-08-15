@@ -6,7 +6,7 @@
   import axios from "axios";
   
   const PORT="https://iitjammuliteraryclub.herokuapp.com/";
-  function Contactus()
+  function Contactus(props)
   {
       useEffect(() => {
           AOS.init();
@@ -41,7 +41,7 @@
         }
   
         return(
-    <section id="contact" className="contact">
+    <section id="contact" className="contact" style={{borderBottom:props.border}}>
       <div className="container">
 
         <div className="section-title" data-aos="fade-up">
@@ -76,26 +76,26 @@
           </div>
 
           <div className="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <form id="form-1" method="POST" role="form" className="php-email-form" onSubmit={HandleSubmit}>
+            <form id="form-1" method="POST" className="php-email-form" onSubmit={HandleSubmit}>
               <div className="form-row">
                 <div className="form-group col-md-6">
-                  <label for="name">Your Name</label>
+                  <label htmlFor="name">Your Name</label>
                   <input type="text" name="name" value={formdata.name} onChange={Change} className="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                   <div className="validate"></div>
                 </div>
                 <div className="form-group col-md-6">
-                  <label for="name">Your Email</label>
+                  <label htmlFor="name">Your Email</label>
                   <input type="email" value={formdata.email} onChange={Change} className="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
                   <div className="validate"></div>
                 </div>
               </div>
               <div className="form-group">
-                <label for="name">Subject</label>
+                <label htmlFor="name">Subject</label>
                 <input type="text" value={formdata.subject} onChange={Change} className="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                 <div className="validate"></div>
               </div>
               <div className="form-group">
-                <label for="name">Message</label>
+                <label htmlFor="name">Message</label>
                 <textarea value={formdata.message} onChange={Change} className="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
                 <div className="validate"></div>
               </div>

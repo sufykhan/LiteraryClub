@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Eventitem from "./EventElement";  
 import Details from "./Eventdet";
-function Event()
+function Event(props)
 {
     useEffect(() => {
         AOS.init();
@@ -19,18 +19,18 @@ function Event()
     function Eventi(detail)
     {
       if(yep==="all")
-        return (<Eventitem image={detail.image} eventname={detail.eventname} aboutevent={detail.aboutevent} />);  
+        return (<Eventitem image={detail.image} eventname={detail.eventname} aboutevent={detail.aboutevent} key={detail.eventname}/>);  
       if(yep===detail.type)
-        return (<Eventitem image={detail.image} eventname={detail.eventname} aboutevent={detail.aboutevent} />);
+        return (<Eventitem image={detail.image} eventname={detail.eventname} aboutevent={detail.aboutevent} key={detail.eventname}/>);
     }
     
     return(
-        <div id="portfolio" className="portfolio">
+        <div id="portfolio" className="portfolio" style={{borderBottom:props.border,top:"0px"}}>
         <div className="container">
   
           <div className="section-title" data-aos="fade-up">
             <h2>Events</h2>
-            <p>Check out our beautifull portfolio</p>
+            <p>Have a look at some of our engrossing activities</p>
           </div>
   
           <div className="row" data-aos="fade-up" data-aos-delay="100">

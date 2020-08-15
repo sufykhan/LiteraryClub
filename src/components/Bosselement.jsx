@@ -13,7 +13,7 @@ function Bossel(props)
     return (
         <div className="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="150">
         <div className="member">
-        <img src={props.img} className="img-fluid" alt="Coordinators of Literary Club"/>
+        <img style={{objectFit:"cover",width:"300px",height:"400px"}} src={props.img} className="img-fluid" alt="Coordinators of Literary Club"/>
         <div className="member-info">
           <div className="member-info-content">
             <h4>{props.name}</h4>

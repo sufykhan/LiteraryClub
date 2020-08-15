@@ -519,26 +519,29 @@
     font-weight: 700;
     line-height: 56px;
     color: #4e4039;
+    text-align: center;
   }
   
   #hero h2 {
     color: #a08f86;
     margin-bottom: 50px;
     font-size: 24px;
+    text-align: center;
   }
-  
   #hero .btn-get-started {
     font-family: "Raleway", sans-serif;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 1px;
-    display: inline-block;
     padding: 8px 28px;
     border-radius: 3px;
     transition: 0.5s;
-    margin: 10px;
     color: #fff;
     background: #eb5d1e;
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin: auto;
   }
   
   #hero .btn-get-started:hover {
@@ -569,6 +572,10 @@
     }
     #hero .hero-img img {
       width: 50%;
+      padding-top: 120px;
+    }
+    #hero a{
+      visibility: hidden;
     }
   }
   
@@ -576,20 +583,30 @@
     #hero h1 {
       font-size: 28px;
       line-height: 36px;
+      
     }
     #hero h2 {
       font-size: 18px;
       line-height: 24px;
       margin-bottom: 30px;
+      
     }
     #hero .hero-img img {
       width: 70%;
+      padding-top: 100px;
+    }
+    #hero a{
+      visibility: hidden;
     }
   }
   
   @media (max-width: 575px) {
     #hero .hero-img img {
       width: 80%;
+      padding-top: 100px;
+    }
+    #hero a{
+      visibility: hidden;
     }
   }
   
@@ -933,7 +950,7 @@
 
 
 
-.rounded-social-buttons {
+/* .rounded-social-buttons {
   text-align: center;
 }
 
@@ -1015,6 +1032,82 @@
   color: #125688;
   background: #fefefe;
   border-color: #125688;
+} */
+
+#social {
+  margin: 20px 0px 0px;
+  text-align: center;
+}
+
+.smGlobalBtn { /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border:2px solid #ddd; /* add border to the buttons */
+    box-shadow: 0 3px 3px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 27px;
+    -moz-border-radius:27px;
+    -webkit-border-radius:27px;
+    margin:10px;
+}
+
+/* facebook button class*/
+.facebookBtn:hover{
+    background: #4060A5;
+    color:#fff;
+}
+.facebookBtn{
+    color: #4060A5;
+    background: #fff;
+    border-color: #4060A5; /* change the border color on mouse hover */
+}
+
+
+
+/* google plus button class*/
+.googleplusBtn:hover{
+    background: #e64522;
+    color:#fff;
+}
+
+
+.googleplusBtn{
+      color: #e64522;
+      background: #fff;
+      border-color: #e64522;
+}
+
+/* linkedin button class*/
+.linkedinBtn:hover{
+    background: #0094BC;
+    color:#fff;
+}
+
+
+.linkedinBtn{
+      color: #0094BC;
+      background: #fff;
+      border-color: #0094BC;
+}
+.instagramBtn:hover{
+  background: #e95950;
+  color:#fff;
+}
+
+
+.instagramBtn{
+    color: #e95950;
+    background: #fff;
+    border-color: #e95950;
 }
 
 
