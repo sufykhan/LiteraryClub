@@ -1,6 +1,7 @@
 import React from "react";
 import Edetail from "./Eventdetail";
 import Whole from "./Newcombine";
+import Gal from "./Gallery"
 import {
   Switch,
   Route
@@ -14,6 +15,7 @@ function App()
         <Switch>
         <Route exact path="/" component={Whole} />
         <Route path="/eventdetail/:id" component={Edetail} />
+        <Route path="/gallery" component={Gal} />
         </Switch>
         </React.Fragment>
     );

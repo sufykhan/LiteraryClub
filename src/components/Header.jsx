@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Event.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import {Link} from "react-router-dom"
 function Header()
 {
   return(
@@ -22,7 +22,7 @@ function Header()
           <li><a href="#contact">Contact Us</a></li>
         </ul>
       </nav>
-
+      <Link to={`/gallery`} ><button type="button" className="btn btn-dark">Gallery</button></Link>
     </div>
   </header>
   );

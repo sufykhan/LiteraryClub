@@ -36,9 +36,9 @@ function Event(props)
           <div className="row" data-aos="fade-up" data-aos-delay="100">
             <div className="col-lg-12">
               <ul id="portfolio-flters">
-                <li key="1" data-filter="*" className="filter-active" onClick={()=>handle("all")}>All</li>
-                <li key="11" data-filter=".filter-app" onClick={()=>handle("up")} >Events</li>
-                <li key="111" data-filter=".filter-card" onClick={()=>handle("pre")}>Prev. Events</li>
+                <li key="1" data-filter="*" className="filter-active" onClick={()=>handle("all")}>All Events</li>
+                <li key="11" data-filter=".filter-app" onClick={()=>handle("up")} >Ongoing Events</li>
+                <li key="111" data-filter=".filter-card" onClick={()=>handle("pre")}>Previous Events</li>
               </ul>
             </div>
           </div>

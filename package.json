@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://sufykhan.github.io/IIT-JMU-LitClub",  
+  "homepage": "http://sufykhan.github.io/IIT-JMU-LitClub/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -17,9 +17,9 @@
     "react-bootstrap": "^1.3.0",
     "react-dom": "^16.13.1",
     "react-multi-carousel": "^2.5.5",
+    "react-responsive-gallery": "^1.2.5",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1",
-    "react-tsparticles": "^1.17.5"
+    "react-scripts": "3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",

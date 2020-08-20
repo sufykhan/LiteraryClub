@@ -20,10 +20,10 @@ function Bossel(props)
             <span>{props.pos}</span>
           </div>
           <div className="social">
-            <a href={props.twi}><i className="fa fa-twitter"></i></a>
-            <a href={props.face}><i className="fa fa-facebook"></i></a>
-            <a href={props.insta}><i className="fa fa-instagram"></i></a>
-            <a href={props.linkedin}><i className="fa fa-linkedin"></i></a>
+            <a href={props.twi}  target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter"></i></a>
+            <a href={props.face} target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook"></i></a>
+            <a href={props.insta} target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram"></i></a>
+            <a href={props.linkedin} target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin"></i></a>
           </div>
         </div>
        </div>

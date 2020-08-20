@@ -1,5 +1,7 @@
 import React from "react";
 import "./Event.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'font-awesome/css/font-awesome.min.css';
 function Finaldetail(props)
 {
     return(
@@ -26,14 +28,14 @@ function Finaldetail(props)
             <div className="portfolio-details-container">
     
               
-                <img  style={{width:"800px",height:"400px"}} src={props.img1} className="img-fluid" alt=""/>
+                <img  style={{objectFit:"cover"}} src={props.img1} className="img-fluid" alt=""/>
               
     
-              <div className="portfolio-info">
+              <div className="portfolio-info" >
                 <h3>Event information</h3>
                 <ul>
                   <li><strong>Category</strong>: {props.category}</li>
-                  <li><strong>Host Person</strong>: {props.hostman}</li>
+                  <li><strong>Event Coordinator</strong>: {props.hostman}</li>
                   <li><strong>Event date</strong>: {props.date}</li>
                   <li><strong>Event Platform</strong>: <a href="/">{props.platform}</a></li>
                 </ul>

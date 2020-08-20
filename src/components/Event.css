@@ -319,7 +319,7 @@
     padding: 30px;
     position: absolute;
     right: 0;
-    bottom: -70px;
+   top:10px;
     background: #fff;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
     z-index: 2;
@@ -603,7 +603,7 @@
   @media (max-width: 575px) {
     #hero .hero-img img {
       width: 80%;
-      padding-top: 100px;
+      padding-top: 125px;
     }
     #hero a{
       visibility: hidden;
