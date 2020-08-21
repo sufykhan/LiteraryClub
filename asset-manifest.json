@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/IIT-JMU-LitClub/static/css/main.804a9e38.chunk.css",
-    "main.js": "/IIT-JMU-LitClub/static/js/main.3865dde9.chunk.js",
-    "main.js.map": "/IIT-JMU-LitClub/static/js/main.3865dde9.chunk.js.map",
+    "main.js": "/IIT-JMU-LitClub/static/js/main.d0e0c11d.chunk.js",
+    "main.js.map": "/IIT-JMU-LitClub/static/js/main.d0e0c11d.chunk.js.map",
     "runtime-main.js": "/IIT-JMU-LitClub/static/js/runtime-main.ab75d899.js",
     "runtime-main.js.map": "/IIT-JMU-LitClub/static/js/runtime-main.ab75d899.js.map",
     "static/css/2.65ec9038.chunk.css": "/IIT-JMU-LitClub/static/css/2.65ec9038.chunk.css",
-    "static/js/2.1f9e179f.chunk.js": "/IIT-JMU-LitClub/static/js/2.1f9e179f.chunk.js",
-    "static/js/2.1f9e179f.chunk.js.map": "/IIT-JMU-LitClub/static/js/2.1f9e179f.chunk.js.map",
+    "static/js/2.c7af3d27.chunk.js": "/IIT-JMU-LitClub/static/js/2.c7af3d27.chunk.js",
+    "static/js/2.c7af3d27.chunk.js.map": "/IIT-JMU-LitClub/static/js/2.c7af3d27.chunk.js.map",
     "index.html": "/IIT-JMU-LitClub/index.html",
-    "precache-manifest.4ef6a5262b9c1433034db9ffd8f5f87a.js": "/IIT-JMU-LitClub/precache-manifest.4ef6a5262b9c1433034db9ffd8f5f87a.js",
+    "precache-manifest.27c2d8c1a71ce007d860a426e8055e5c.js": "/IIT-JMU-LitClub/precache-manifest.27c2d8c1a71ce007d860a426e8055e5c.js",
     "service-worker.js": "/IIT-JMU-LitClub/service-worker.js",
     "static/css/2.65ec9038.chunk.css.map": "/IIT-JMU-LitClub/static/css/2.65ec9038.chunk.css.map",
     "static/css/main.804a9e38.chunk.css.map": "/IIT-JMU-LitClub/static/css/main.804a9e38.chunk.css.map",
-    "static/js/2.1f9e179f.chunk.js.LICENSE.txt": "/IIT-JMU-LitClub/static/js/2.1f9e179f.chunk.js.LICENSE.txt",
+    "static/js/2.c7af3d27.chunk.js.LICENSE.txt": "/IIT-JMU-LitClub/static/js/2.c7af3d27.chunk.js.LICENSE.txt",
     "static/media/font-awesome.min.css": "/IIT-JMU-LitClub/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/styles.css": "/IIT-JMU-LitClub/static/media/revicons.2feb69cc.eot"
   },
   "entrypoints": [
     "static/js/runtime-main.ab75d899.js",
     "static/css/2.65ec9038.chunk.css",
-    "static/js/2.1f9e179f.chunk.js",
+    "static/js/2.c7af3d27.chunk.js",
     "static/css/main.804a9e38.chunk.css",
-    "static/js/main.3865dde9.chunk.js"
+    "static/js/main.d0e0c11d.chunk.js"
   ]
 }
