@@ -2,6 +2,7 @@ import React from "react";
 import "./Event.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
+import {Link} from "react-router-dom";
 function Finaldetail(props)
 {
     return(
@@ -13,8 +14,7 @@ function Finaldetail(props)
             <div className="d-flex justify-content-between align-items-center">
               <h2>{props.eventname}</h2>
               <ol>
-                <li><a href="/">Home</a></li>
-                <li><a href="/">Event</a></li>
+                <li><Link to="/">Home</Link></li>
                 <li>Event Detail</li>
               </ol>
             </div>
@@ -37,7 +37,7 @@ function Finaldetail(props)
                   <li><strong>Category</strong>: {props.category}</li>
                   <li><strong>Event Coordinator</strong>: {props.hostman}</li>
                   <li><strong>Event date</strong>: {props.date}</li>
-                  <li><strong>Event Platform</strong>: <a href="/">{props.platform}</a></li>
+                  <li><strong>Event Platform</strong>: {props.platform}</li>
                 </ul>
               </div>
     
