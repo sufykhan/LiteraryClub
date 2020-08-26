@@ -14,9 +14,9 @@ const images = [
       
   },
 {
-    src:"https://i.ibb.co/JdfpDGK/Copy-of-DSC-0786.jpg" 
+    src:"https://i.ibb.co/Yhygg8j/Screenshot-2020-08-24-07-09-30-106-com-google-android-apps-photos.jpg" 
     ,
-    thumbnail:"https://i.ibb.co/JdfpDGK/Copy-of-DSC-0786.jpg",
+    thumbnail:"https://i.ibb.co/Yhygg8j/Screenshot-2020-08-24-07-09-30-106-com-google-android-apps-photos.jpg",
     thumbnailWidth: 320,
     thumbnailHeight: 174
   },
@@ -49,10 +49,10 @@ thumbnail:"https://i.ibb.co/tDYg8cF/Screenshot-11.png" ,    thumbnailWidth: 320,
     thumbnailHeight: 174
   },
 {
-    src:"https://i.ibb.co/9bDgFKK/Screenshot-12.png"
+    src:"https://i.ibb.co/TBDv41X/Screenshot-2020-08-24-07-14-58-931-com-miui-gallery.jpg"
     ,
  
- thumbnail:"https://i.ibb.co/9bDgFKK/Screenshot-12.png"
+ thumbnail:"https://i.ibb.co/TBDv41X/Screenshot-2020-08-24-07-14-58-931-com-miui-gallery.jpg"
 ,   thumbnailWidth: 320,
     thumbnailHeight: 174
   },

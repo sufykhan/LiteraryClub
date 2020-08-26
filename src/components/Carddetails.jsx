@@ -18,7 +18,7 @@ const Details=
     ,
     {title:"Amardeep Jain" ,subtitle:" " ,img:"https://i.ibb.co/9r72St0/IMG-5388.jpg",blog:"/"}
     ,
-    {title:"Prarthana Tripathy" ,subtitle:"The way we speak and write is the replica of our inner thoughts.",img:"https://i.ibb.co/WxFnZ0Z/IMG-20200727-140444.jpg" ,blog:"https://m.facebook.com/story.php?story_fbid=916205085559760&id=488545384992401"}
+    {title:"Prarthana Tripathy" ,subtitle:"The way we speak and write is the replica of our inner thoughts.",img:"https://i.ibb.co/phDmp35/IMG-20200822-091550.jpg" ,blog:"https://m.facebook.com/story.php?story_fbid=916205085559760&id=488545384992401"}
     ,
     {title:"Shaivya Yadav" ,subtitle:"Let not reason imprison you." ,img:"https://i.ibb.co/09961bG/IMG-20191202-195803-SHAIVYA-YADAV.jpg",blog:"https://unfilterediitian.wordpress.com"}
 ];
