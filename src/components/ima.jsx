@@ -89,10 +89,10 @@ thumbnail:"https://i.ibb.co/tDYg8cF/Screenshot-11.png" ,    thumbnailWidth: 320,
     thumbnailHeight: 174
   },
 {
-    src: "https://i.ibb.co/sVnV5BF/Screenshot-18.png"
+    src: "https://i.ibb.co/8rc0W3w/IMG-20200824-073410.jpg"
     ,
 
-thumbnail: "https://i.ibb.co/sVnV5BF/Screenshot-18.png",    thumbnailWidth: 320,
+thumbnail: "https://i.ibb.co/8rc0W3w/IMG-20200824-073410.jpg",    thumbnailWidth: 320,
     thumbnailHeight: 174
   },
 {

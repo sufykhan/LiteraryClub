@@ -62,13 +62,13 @@
               <div className="email">
                 <i className="fa fa-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>2019uce0065@iitjammu.ac.in</p>
               </div>
 
               <div className="phone">
                 <i className="fa fa-phone"></i>
                 <h4>Call:</h4>
-                <p>+919454846598</p>
+                <p>+919650886180</p>
               </div>
 
             </div>
