@@ -6,7 +6,7 @@ function CardBlock(props)
     return(
     <Card  className="text-center" style={{margin:"0px 20px"}}>
     <div style={{height:"320px"}}>
-    <Card.Img  variant="top" style={{height:"100%",objectFit:"cover"}} src={props.img} />
+    <Card.Img  variant="top" style={{height:"100%",objectFit:"cover"}} src={props.img} alt="IIT JAMMMU Students Lit club"/>
     </div>
     <div style={{height:"130px"}}>
       <Card.Body style={{height:"100%"}}>

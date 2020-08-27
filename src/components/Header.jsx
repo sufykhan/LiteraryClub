@@ -9,7 +9,7 @@ function Header()
     <div className="container-fluid d-flex">
 
       <div className="logo mr-auto">
-        <h1 className="text-light"><a href="/" alt="Literary Club"><span>Literary Club</span></a></h1>
+        <h1 className="text-light"><a href="/" alt="Literary Club"><span style={{fontWeight:"500",color:"rgb(194, 183, 177)"}}>Literary Club</span></a></h1>
       </div>
 
       <nav className="nav-menu d-none d-lg-block">

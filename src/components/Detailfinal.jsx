@@ -28,7 +28,7 @@ function Finaldetail(props)
             <div className="portfolio-details-container">
     
               
-                <img  style={{objectFit:"cover"}} src={props.img1} className="img-fluid" alt=""/>
+                <img  style={{objectFit:"cover"}} src={props.img1} className="img-fluid" alt="IIT JAMMMU "/>
               
     
               <div className="portfolio-info" >
