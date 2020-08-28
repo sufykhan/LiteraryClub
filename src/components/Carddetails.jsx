@@ -10,7 +10,7 @@ const Details=
     ,
     {title:"Anushka Agarwal" ,subtitle:"" ,img:"https://i.ibb.co/pJydH1y/82-F1-C30-D-8352-4-A6-C-B04-A-B584-C6783-E6-E.jpg",blog:"https://anushkaagrawal2801.wordpress.com/"}
     ,
-    {title:"Paridhi Mayande" ,subtitle:" " ,img:"https://i.ibb.co/zGb7TPB/20200726-175212.jpg",blog:"https://wordpress.com/posts/undauntedparidhi.wordpress.com"}
+    {title:"Paridhi Mayande" ,subtitle:" " ,img:"https://i.ibb.co/zGb7TPB/20200726-175212.jpg",blog:"https://undauntedparidhi.wordpress.com/2020/05/08/my-message-to-the-country/"}
     ,
     {title:"Rishabh Bharadwaj" ,subtitle:" " ,img:"https://i.ibb.co/TWg386M/IMG-20200813-122159.jpg" ,blog:"https://rishabhwrites519391572.wordpress.com/2020/05/08/life-after-coronavirus/"}
     ,
