@@ -13,7 +13,7 @@ function Teams(props)
       });
     return (
         <section className="services section-bg" style={{background:props.color,borderBottom:props.border}}>
-        <div className="section-title" data-aos="fade-up">
+        <div className="section-title" data-aos="fade-up" >
           <h2>Team</h2>
           <p>Our Literary Club consists of Inquisitive and consistently determined club members</p>
         </div>

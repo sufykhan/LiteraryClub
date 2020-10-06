@@ -22,13 +22,13 @@ function Whole()
     return(
         <div>     
            <Header/>            
-           <div style={{background:customStyle.background,paddingTop:"60px"}}>
-                    <div id="social">
+           
+                    <div id="social" style={{background:customStyle.background,paddingTop:"60px"}}>
                     <button type="button" className="smGlobalBtn facebookBtn" onClick={(e)=>{ setCustomstyle({...customStyle,background:"#fef8f5"})  }}></button>
                     <button type="button" className="smGlobalBtn linkedinBtn" onClick={(e)=>{ setCustomstyle({...customStyle,background:"#FFFFFF"})  }}></button>
                     <button type="button" className="smGlobalBtn instagramBtn" onClick={(e)=>{ setCustomstyle({...customStyle,background:"#cffffe "})  }}></button>
                     </div>
-            </div>
+          
            <Getst color={customStyle.background} border={customStyle.borderBottom}/>
             <Event border={customStyle.borderBottom}/>
             <Whatwedo color={customStyle.background} border={customStyle.borderBottom}/>

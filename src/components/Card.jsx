@@ -4,7 +4,10 @@ import {Button,Card} from 'react-bootstrap';
 function CardBlock(props) 
 {
     return(
-    <Card  className="text-center" style={{margin:"0px 20px"}}>
+    <Card  className="text-center" style={{height:"90%",
+    boxShadow:"1px 7px 12px #a29999",
+    borderRadius: "10px",
+    transitionDuration: "0.6s",margin:"0px 20px"}}>
     <div style={{height:"320px"}}>
     <Card.Img  variant="top" style={{height:"100%",objectFit:"cover"}} src={props.img} alt="IIT JAMMMU Students Lit club"/>
     </div>

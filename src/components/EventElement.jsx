@@ -14,7 +14,11 @@ function Eventitem(props)
     return(
         
            <div className="col-lg-4 col-md-6 portfolio-item filter-web">
-           <div className="portfolio-wrap">
+           <div className="portfolio-wrap" style={{width: "100%",
+height: "100%",
+boxShadow:"1px 7px 12px #a29999",
+borderRadius: "10px",
+transitionDuration: "0.6s"}}>
                 <img  style={{width:"fit-content",height:"350px",objectFit:"cover"}} src={props.image} className="img-fluid" alt="IIT JAMMMU Events"/>
                 <div className="portfolio-links">
                     {/* <a  data-gall="portfolioGallery" className="venobox" title="Web 3"  onClick={handleClick}><i className="fa fa-plus" value={props.eventname}></i></a> */}

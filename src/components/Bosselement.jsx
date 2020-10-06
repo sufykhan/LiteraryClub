@@ -11,8 +11,12 @@ function Bossel(props)
         AOS.refresh();
       });
     return (
-        <div className="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="150">
-        <div className="member">
+        <div className="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="150" style={{width: "100%",
+        height: "100%",
+        boxShadow:"1px 7px 12px #a29999",
+        borderRadius: "10px",
+        transitionDuration: "0.6s"}}>
+        <div className="member" >
         <img style={{objectFit:"cover",width:"300px",height:"400px"}} src={props.img} className="img-fluid" alt="Coordinators of Literary Club"/>
         <div className="member-info">
           <div className="member-info-content">
