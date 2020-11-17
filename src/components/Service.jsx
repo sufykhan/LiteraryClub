@@ -28,6 +28,7 @@ function Whatwedo(props)
               <p className="description">Our Club started in 2018.<br/>Coordinator<br/> 
 Salman Raza : 2018-2019<br/>
 Shaivya Yadav :2019-2020<br/>
+Vishal Sharma:2020-2021<br/>
  Faculty Coordinator <br/>
 Dr. Queleen Kaur Bijral:2018-2019 Dec<br/>
 Dr. Suchishmita Roy: 2019-2020<br/>

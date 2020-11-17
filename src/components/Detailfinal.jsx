@@ -5,6 +5,22 @@ import 'font-awesome/css/font-awesome.min.css';
 import {Link} from "react-router-dom";
 function Finaldetail(props)
 {
+  const winner=(e)=>{
+    console.log(e)
+    if(e==="2"){
+      return(<div className="portfolio-info" style={{top:"50%",right:"10%"}}>
+      <h3>Our Winners</h3>
+      <ul>
+        <li><strong>First</strong>: <a href="https://drive.google.com/file/d/1V9B8MzzGM43ysY94nDEfWGquDtFunjov/view" target="_blank">{props.first}</a></li>
+        <li><strong>Second</strong>: <a href="https://drive.google.com/file/d/1NjaTjSpA5rwP7mWSel5H0T-9BLUVPjAD/view?usp=sharing" target="_blank">{props.second}</a></li>
+        <li><strong>Third</strong>: <a href="https://drive.google.com/file/d/1ttPyiQCY1Q5V_Tn7bBbg6IsaRTJ4VxF_/view?usp=sharing" target="_blank">{props.third}</a></li>
+      </ul>
+    </div>)
+    }
+    else{
+      return (<></>)
+    }
+  }
     return(
         <main id="main">
         
@@ -40,7 +56,9 @@ function Finaldetail(props)
                   <li><strong>Event Platform</strong>: {props.platform}</li>
                 </ul>
               </div>
-    
+              
+              {winner(props.index)}
+              
             </div>
     
             <div className="portfolio-description">

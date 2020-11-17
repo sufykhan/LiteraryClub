@@ -2,7 +2,6 @@ import React from 'react';
 import "./Event.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
-
 function GetSt(props)
 {
 //   const [abt,setAbt]=useState(false);
@@ -35,6 +34,7 @@ return(
         </div>
         <div className="col-lg-6 order-1 order-lg-2 hero-img">
           <img src="https://i.ibb.co/KhNMjZ6/Adobe-Post-20200805-0211140-5263287523153267-1.png" style={{borderRadius:"100%"}} className="img-fluid animated" alt=""/>
+          
         </div>
       </div>
     </div>
