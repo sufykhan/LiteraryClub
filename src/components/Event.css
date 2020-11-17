@@ -603,7 +603,7 @@
   @media (max-width: 575px) {
     #hero .hero-img img {
       width: 80%;
-      padding-top: 125px;
+      padding-top: 150px;
     }
     #hero a{
       visibility: hidden;
@@ -1110,6 +1110,14 @@
     border-color: #e95950;
 }
 
-
+.mediumBtn:hover{
+  background:black;
+  color:#fff;
+}
+.mediumBtn{
+  color: black;
+  background: #fff;
+  border-color: black; /* change the border color on mouse hover */
+}
 
 
