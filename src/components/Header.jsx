@@ -19,9 +19,13 @@ function Header()
           <li><a href="#team">Mentors</a></li>
           <li><a href="#club">Team</a></li>
           <li><a href="#contact">Contact Us</a></li>
-          <li><a href="#developer">Developer</a></li>
         </ul>
       </nav>
+      <a href="#developer" style={{color: "black",
+    fontSize: "23px",
+    marginRight: "auto",
+    marginLeft: "10px",
+    marginTop:"4px"}}><i className="fa fa-user-secret"></i></a>
       <Link to={`/gallery`} ><button type="button" className="btn btn-dark">Gallery</button></Link>
     </div>
   </header>
