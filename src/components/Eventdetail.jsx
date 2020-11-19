@@ -10,7 +10,8 @@ function Edetail()
         {
             if(details.eventname===id)
                return (<Finaldetail eventname={details.eventname} aboutevent={details.aboutevent} img1={details.img1} hostman={details.hostman}
-                   category={details.category} host={details.host} date={details.time} detail={details.detail} platform={details.platform} title={details.title} index={details.index} first={details.first} second={details.second} third={details.third}
+                   category={details.category} host={details.host} date={details.time} detail={details.detail} platform={details.platform} title={details.title} index={details.index} first={details.first} second={details.second} third={details.third} o={details.o}
+                   oo={details.oo} ooo={details.ooo}
                />);
         });
     return(
