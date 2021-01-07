@@ -21,6 +21,7 @@ function GetSt(props)
 //  const [btns,Setbtn]=useState("#e97643")
 //  console.log(props.color)
 //  if(props.color==="#cffffe") {Setbtn("#1ec5eb"); console.log("YES")}
+//console.log(props.color)
 
 return(
   <section id="hero" className="d-flex align-items-center" style={{background:props.color,top:"0px",paddingTop:"0px"}}>
@@ -33,7 +34,8 @@ return(
           <a href="#portfolio" className="btn-get-started scrollto" style={{textDecoration: "none"}}>Scroll to know more!</a>
         </div>
         <div className="col-lg-6 order-1 order-lg-2 hero-img">
-          <img src="https://i.ibb.co/KhNMjZ6/Adobe-Post-20200805-0211140-5263287523153267-1.png" style={{borderRadius:"100%"}} className="img-fluid animated" alt=""/>
+          {/* <img src="https://i.ibb.co/KhNMjZ6/Adobe-Post-20200805-0211140-5263287523153267-1.png" style={{borderRadius:"100%"}} className="img-fluid animated" alt="Club Logo"/> */}
+          {props.color==="#FFFFFF"?<img src="/images/logo.png" className="img-fluid animated" alt="Club Logo"/>:(props.color==="#fef8f5"?<img src="https://i.ibb.co/KhNMjZ6/Adobe-Post-20200805-0211140-5263287523153267-1.png" style={{borderRadius:"100%"}} className="img-fluid animated" alt="Club Logo"/>:<img src="/images/log.png"  className="img-fluid animated" alt="Club Logo"/> )}
           
         </div>
       </div>
